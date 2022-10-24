@@ -1,23 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family:sans-serif;
-    background: #2c3350;
+    background: #fcf3f2;
 }
-nav{
-    position: relative;
-    margin: 270px auto 0;
-    width: 590px;
-    height: 50px; 
-    background: #34495e;
-    border-radius: 8px;
-    font-size: 0;
-    box-shadow: 0 2px 3px 0 rgba(0,0,0,1); 
+.menu-bar{
+    background: #d0671c;
+    text-align: center;
 }
-nav a{
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
     text-decoration: none;
-    line-height: 50px;
-    position: relative;
-    z-index: 1;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover{
+    background: #ba5c22;
+    border-radius: 4px;
 }
