@@ -45,11 +45,15 @@ body{
     clear: both;
     float: right;
 }
-
-body{
-    line-height: 1.5;
-    font-family: "Poppins", sans-serif;
+main{
+    min-height: calc(100vh - 300px);
 }
+.footer{
+    height: 150px;
+    background-color: #d0671c;
+    padding: 70px 0;
+}
+
 .container{
     max-width: 1170px;
     margin: auto;
@@ -65,10 +69,7 @@ body{
 ul{
     list-style: none;
 }
-.footer{
-    background-color: #d0671c;
-    padding: 70px 0;
-}
+
 .footer-main{
     width: 25%;
     padding: 0 15px;
