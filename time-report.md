@@ -10,3 +10,5 @@ For example:
 - 2022-10-29 13:00 worked for 2 hours
   - worked on css for placing the text and box. 
   - made a search bar
+- 2022-11-01 06:50 worked for 1 hour
+  - add sticky footer by using "calc method"
