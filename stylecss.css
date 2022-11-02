@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family:sans-serif;
@@ -45,66 +46,36 @@ body{
     clear: both;
     float: right;
 }
-main{
-    min-height: calc(100vh - 300px);
+
+.footer-container{
+    background-color: #ba5c22;
+    padding-bottom: 64px;
 }
 .footer{
-    height: 150px;
-    background-color: #d0671c;
-    padding: 70px 0;
-}
-
-.container{
-    max-width: 1170px;
-    margin: auto;
-    position: absolute;
-    bottom: 0;
-    top: auto;
-    left: 15px;
-}
-.row{
+    width: 70%;
+    height: 30vh;
+    background-color: #ba5c22;
+    color: #fff;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
-ul{
-    list-style: none;
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin: 64px;
 }
-
-.footer-main{
-    width: 25%;
-    padding: 0 15px;
-}
-.footer-main h4{
-    font-size: 18px;
-    color: #ffffff;
+.footer-heading h3{
     text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
-    position: relative;
+    margin-top: 32px;
 }
-.footer-main h4::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #d0671c;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-.footer-main ul li{
-    margin: 10px;
-}
-.footer-main ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
+.footer-heading a{
+    color: rgb(163, 163, 163);
     text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
+    margin-bottom: 4px;
 }
-.footer-main ul li a:hover{
-    color: #ffffff;
-    padding-left: 6px;
+.footer-heading a:hover {
+    color: #633a70;
+    transition: 0.3s ease-in-out;
 }
