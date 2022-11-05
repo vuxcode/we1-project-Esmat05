@@ -51,6 +51,50 @@ body{
     position: relative;
     min-height: 100vh;
 }
+.section-om-fr{
+    width: 80%;
+    max-width: 95%;
+    margin:  0 auto;
+    align-items: center;
+    padding: 80px 0px;
+    justify-content: space-around;
+}
+.div-om{
+    width: 550px;
+    position: relative;
+    align-items: center;
+    box-sizing: content-box;
+}
+.div-om h1{
+    color: #fff;
+    font-size: 70%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.div-om p{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+button {
+    background:#ba5c22;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    margin: 15px;
+    padding:  15px 32px;
+    border-radius: 32px;
+    transition: 0.4s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #ba5c22;
+    cursor: pointer;
+}
 .footer-container{
     position: relative;
     background-color: #ba5c22;
