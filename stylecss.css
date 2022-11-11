@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family:sans-serif;
+    font-family:'Mali', cursive;
     background: #fcf3f2;
 }
 .logo img{
@@ -50,6 +50,27 @@ body{
 .main-container{
     position: relative;
     min-height: 100vh;
+    margin: 25px;
+    
+}
+.fakta-text{
+    margin: auto;
+    padding: 2px;
+    border: 8px;
+    width: 400px;
+    max-height: auto;
+}
+
+.fakta-text h3{
+    color: #ba5c22;
+    padding: 5px;
+    border: 8px;
+}
+
+.fakta-text p{
+    margin: auto;
+    padding: 8px;
+    border: 8px;
 }
 .om-fr{
     width: 80%;
