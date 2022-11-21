@@ -53,6 +53,13 @@ body{
     margin: 25px;
     
 }
+/* booking page and form  */
+
+.booking-form{
+    margin: auto;
+    padding: 4px;
+    border: 8px;
+}
 .fakta-text{
     margin: auto;
     padding: 2px;
