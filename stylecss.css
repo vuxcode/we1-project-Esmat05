@@ -64,6 +64,12 @@ body{
     max-width: 60%;
     max-height: 80%;
 }
+.bookingtime{
+    margin: auto;
+    padding: 14px;
+    border: 4px;
+    white-space: 2px;
+}
 .fakta-text{
     margin: auto;
     padding: 2px;
