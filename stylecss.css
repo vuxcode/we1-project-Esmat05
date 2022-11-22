@@ -66,9 +66,15 @@ body{
 }
 .bookingtime{
     margin: auto;
-    padding: 14px;
+    padding: 10px 0;
     border: 4px;
-    white-space: 2px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    outline: none;
 }
 .fakta-text{
     margin: auto;

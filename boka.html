@@ -33,14 +33,26 @@
     <input type="radio" id= "Kön" value="män" name="kön" checked> män
     <input type="radio" id= "Kön" value="ange-inte" name="kön" checked> inte anges
 </div>
+<div class="select-group">
+    <label for="massage-types">Välj typ av massage</label>
+    <select name="types-of-massage" id="massage-types" required>
+        <option value="">Välja typ av massage</option>
+        <option value="firstone"> ........ </option>
+        <option value="secondone"> ........ </option>
+        <option value="thirthone"> ........ </option>
+    </select>
+</div>
 <label for="telefonnummer"> Telefonnummer:</label>
-<input for="Telefonnummer" placeholder="Telefonnummer"/required>
+<input for="Telefonnummer" type="text" placeholder="Telefonnummer" required>
 <label for="majl"> majladress</label>
-<input for="majl" id="majl" placeholder="Ange ditt majl" name="majl"/required>
+<input for="majl" type="text" id="majl" placeholder="Ange ditt majl" name="majl" required>
 <button type="submit" value="skicka"> Boka </button>
 <button type="reset" value="reset"> Reset </button>
 </div>
 </form>
+
+<!-- available time for booking code -->
+
 </main>
 <footer>
     <div class="footer-container">
