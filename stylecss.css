@@ -140,21 +140,22 @@ button:hover{
     cursor: pointer;
 }
 .footer-container{
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
     background-color: #ba5c22;
+    text-align: center;
     
 }
 .footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    background-color: #ba5c22;
+    position: absolute;
+    text-align: center;
     color: #fff;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    
 }
 .footer-heading{
     display: flex;
@@ -174,4 +175,41 @@ button:hover{
 .footer-heading a:hover {
     color: #6a6a6a;
     transition: 0.3s ease-in-out;
+}
+
+.Mbilder{
+    width: 100px;
+    height: 50px;
+    margin: 120px, auto;
+}
+.Mbilder a{
+    margin: auto;
+    padding: 8px;
+    border: 4px;
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+}
+
+#massage-text1{
+    width: 800px;
+    height: 400px;
+    float: right;
+}
+
+#massage-text2{
+    width: 800px;
+    height: 400px;
+    float: right;
+}
+#massage-text3{
+    width: 800px;
+    height: 400px;
+    float: right;
+}
+#massage-text4{
+    width: 800px;
+    height: 400px;
+    float: right;
 }
