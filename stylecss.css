@@ -5,7 +5,8 @@
 }
 
 .logo img{
-    float: left;
+    position: relative;
+    float: right;
     margin: 5px 5px 50px 10px;
     width: 80px;
     height: 80px;
@@ -45,10 +46,11 @@
 /* body part for css */
 .body-class{
     background: #fcf3f2;
-    position: relative;
-    min-height: 100vh;
-    padding-bottom: 50px;
-    
+    margin: 0 auto;
+    padding: 30px 20px;
+    width: 90vw;
+    min-height: calc(100vh - 91px - 130px);
+
 }
 /* booking page and form  */
 
@@ -101,7 +103,6 @@ input[type=text]{
 }
 .om{
     width: 550px;
-    position: relative;
     align-items: right;
     box-sizing: content-box;
 }
@@ -135,22 +136,32 @@ button:hover{
     border: 2px solid #ba5c22;
     cursor: pointer;
 }
-.footer-container{
+footer{
+    background-color: #d0671c;
+    padding: 18px;
     position: absolute;
-    padding: 20px;
     bottom: 0;
-    background-color: #ba5c22;   
+    width: 100%;
 }
 
-.footer-heading{
+.footer-heading-1{
     display: flex;
-    flex-direction: column;
-    margin: 50px;
+    margin: 10px;
+    padding: 5px;
+    border: 4px;
+}
+.footer-heading-2{
+    display: flex;
+    padding: 5px;
+    border: 4px;
+    margin: 10px;
 }
 .footer-heading h3{
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    margin-top: 32px;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
 }
 .footer-heading a{
     color: rgb(194, 191, 191);
@@ -171,8 +182,7 @@ button:hover{
     margin: auto;
     padding: 8px;
     border: 4px;
-    display: flex;
-    width: 1000px;
+    width: 900px;
     height: 400px;
 }
 
