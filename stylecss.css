@@ -6,7 +6,7 @@
 /* body part for css */
 .body-class{
     background: #fcf3f2;
-    margin: 0 auto;
+    margin: 15px auto 15px;
     padding-bottom: 58px;
     position: relative;
     width: 100%;
@@ -140,7 +140,7 @@ button:hover{
 
 footer{
     background-color: #d0671c;
-    padding: 8px;
+    padding: 18px;
     position: absolute;
     bottom: 0;
     width: 100%;
