@@ -3,7 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* body part for css */
+.body-class{
+    background: #fcf3f2;
+    margin: 0 auto;
+    padding-bottom: 58px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
 
+}
 .logo img{
     position: relative;
     float: right;
@@ -43,15 +52,7 @@
 
 }
 
-/* body part for css */
-.body-class{
-    background: #fcf3f2;
-    margin: 0 auto;
-    padding: 30px 20px;
-    width: 90vw;
-    min-height: calc(100vh - 91px - 130px);
 
-}
 /* booking page and form  */
 
 .booking-form{
@@ -136,12 +137,14 @@ button:hover{
     border: 2px solid #ba5c22;
     cursor: pointer;
 }
+
 footer{
     background-color: #d0671c;
-    padding: 18px;
+    padding: 8px;
     position: absolute;
     bottom: 0;
     width: 100%;
+    
 }
 
 .footer-heading-1{
@@ -173,7 +176,7 @@ footer{
     transition: 0.3s ease-in-out;
 }
 
-.Mbilder{
+/* .Mbilder{
     width: 100px;
     height: 50px;
     margin: 120px, auto;
@@ -206,4 +209,4 @@ footer{
     width: 800px;
     height: 400px;
     float: right;
-}
+} */
