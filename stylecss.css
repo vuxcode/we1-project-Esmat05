@@ -6,11 +6,9 @@
 /* body part for css */
 .body-class{
     background: #fcf3f2;
-    margin: 15px auto 15px;
+    margin: auto;
     padding-bottom: 58px;
-    position: relative;
     width: 100%;
-    min-height: 100vh;
 
 }
 .logo img{
@@ -50,6 +48,54 @@
     background: #ba5c22;
     border-radius: 4px;
 
+}
+
+/* First pages 3 images  */
+.Mbilder{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 30px;
+}
+.Mbilder .card{
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in-out;
+}
+.Mbilder .card .imgMs{
+    position: relative;
+    width: 260px;
+    height: 160px;
+    top:-60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
+}
+.Mbilder .card .imgMs img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+
+.Mbilder .card .contant{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.2s ease-in-out;
 }
 
 
@@ -140,36 +186,36 @@ button:hover{
 
 footer{
     background-color: #d0671c;
-    padding: 18px;
-    position: absolute;
+    padding: 2px;
+    position: sticky;
     bottom: 0;
     width: 100%;
-    
+    text-transform: uppercase;
 }
 
 .footer-heading-1{
     display: flex;
+    flex-direction: column;
     margin: 10px;
     padding: 5px;
     border: 4px;
 }
 .footer-heading-2{
     display: flex;
+    flex-direction: column;
     padding: 5px;
     border: 4px;
-    margin: 10px;
+    margin: 8px;
 }
 .footer-heading h3{
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     display: flex;
-    list-style: none;
-    margin-top: 30px;
 }
 .footer-heading a{
     color: rgb(194, 191, 191);
     text-decoration: none;
-    margin-bottom: 4px;
+    list-style: none;  
 }
 .footer-heading a:hover {
     color: #6a6a6a;
