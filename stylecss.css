@@ -67,7 +67,7 @@
     margin: 40px 20px;
 }
 .card img{
-    width: 100%;
+    width: 55%;
     height: 200px;
     border-radius: 5px 5px 0 0;
 }
@@ -189,6 +189,9 @@ footer{
     margin-top: 5px;
     text-transform: uppercase;
     text-align: center;
+}
+footer p{
+    color: #fff;
 }
 
 /* .footer-heading-1{
