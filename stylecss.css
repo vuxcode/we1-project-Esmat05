@@ -12,8 +12,7 @@
 
 }
 .logo img{
-    position: relative;
-    float: right;
+    position: absolute;
     margin: 5px 5px 50px 10px;
     width: 80px;
     height: 80px;
@@ -22,8 +21,10 @@
 }
 .menu-bar{
     background: #d0671c;
-    text-align: left; 
-    position: relative;
+    text-align: left;
+    width: 100%; 
+    float: left;
+
 }
 .menu-bar ul{
     display: flex;
@@ -31,6 +32,7 @@
     color: #fff;
     justify-content: center;
     text-align: center;
+    margin-left: 35px;
 }
 .menu-bar ul li{
     width: 150px;
