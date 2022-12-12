@@ -193,6 +193,17 @@ button:hover{
     border: 2px solid #ba5c22;
     cursor: pointer;
 }
+#profile-F{
+    width: 200px;
+    height: 300px;
+    float: left;
+    border: 8px ;
+    padding: 6px;
+    margin: auto;
+    position: relative;
+    top: auto;
+    right: 40px;
+}
 
 footer{
     background-color: #d0671c;
