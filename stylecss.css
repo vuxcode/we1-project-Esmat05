@@ -53,8 +53,9 @@
 
 /* First pages 3 images  */
 #FR-m{
+
     text-align: center;
-    margin-top: 15px;
+    margin: 25px auto 25px auto;
 }
 .Mbilder{
     width: 92%;
@@ -69,7 +70,7 @@
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
     box-shadow: 0 7px 7px grey;
-    margin: 40px 20px;
+    margin: auto 2% 8% auto;
 }
 .card img{
     width: 100%;
@@ -104,26 +105,29 @@
 
 .booking-form{
     margin: auto;
-    padding: 4px;
+    padding: 14px;
     border: 8px;
     box-sizing: border-box;
-    max-width: 60%;
-    max-height: 80%;
+    max-width: 50%;
+    max-height: 90%;
+}
+div.select-group{
+    margin: 15px 0 15px 0;
 }
 .bookingtime{
     margin: auto;
-    padding: 10px 0;
+    padding: 8px 0;
     border: 4px;
 }
 input[type=text]{
     width: 100%;
     padding: 8px;
-    margin: 5px 0 20px 0;
+    margin: 15px 0;
     display: inline-block;
     outline: none;
 }
 .fakta-text{
-    padding: 1px;
+    padding: 2px;
     border: 2px;
     width: 600px;
     text-align: center;
@@ -147,7 +151,7 @@ input[type=text]{
     border: 2px;
 }
 .om-fr{
-    padding: 1px;
+    padding: 50px;
     border: 2px;
     width: 600px;
     text-align: center;
@@ -180,7 +184,7 @@ button{
     background:#ba5c22;
     color: #ffffff;
     text-decoration: none;
-    border: 2px solid transparent;
+    border: 2px solid ;
     font-weight: bold;
     margin: 10px;
     padding:  15px 20px;
@@ -188,8 +192,7 @@ button{
     transition: 0.4s;
 }
 button:hover{
-    background: transparent;
-    border: 2px solid #ba5c22;
+    border: 2px solid #e56b1f;
     cursor: pointer;
 }
 #profile-F{
@@ -206,7 +209,7 @@ button:hover{
 
 footer{
     background-color: #d0671c;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -218,66 +221,3 @@ footer p{
     color: #fff;
 }
 
-/* .footer-heading-1{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    padding: 5px;
-    border: 4px;
-}
-.footer-heading-2{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border: 4px;
-    margin: 8px;
-}
-.footer-heading h3{
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    display: flex;
-}
-.footer-heading a{
-    color: rgb(194, 191, 191);
-    text-decoration: none;
-    list-style: none;  
-}
-.footer-heading a:hover {
-    color: #6a6a6a;
-    transition: 0.3s ease-in-out;
-} */
-
-/* .Mbilder{
-    width: 100px;
-    height: 50px;
-    margin: 120px, auto;
-}
-.Mbilder a{
-    margin: auto;
-    padding: 8px;
-    border: 4px;
-    width: 900px;
-    height: 400px;
-}
-
-#massage-text1{
-    width: 800px;
-    height: 400px;
-    float: right;
-}
-
-#massage-text2{
-    width: 800px;
-    height: 400px;
-    float: right;
-}
-#massage-text3{
-    width: 800px;
-    height: 400px;
-    float: right;
-}
-#massage-text4{
-    width: 800px;
-    height: 400px;
-    float: right;
-} */
